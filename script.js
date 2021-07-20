@@ -136,7 +136,7 @@ else if(value=='ls'){
     }
 }
 else if(value=='sankalpamode'){
-alert('You Hacked me :(')
+window.location.href='sankalpamode.html'
 }
 else if(value=='--help'){
     command_list.push(value)
