@@ -135,6 +135,9 @@ else if(value=='ls'){
         element.appendChild(p)
     }
 }
+else if(value=='sankalpamode'){
+window.location.href='sankalpamode.html'
+}
 else if(value=='--help'){
     command_list.push(value)
     element.textContent=`Sankalpa~ $ ${value}`
