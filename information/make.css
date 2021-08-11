@@ -33,6 +33,8 @@
     color:black;
     
 }
+
+
 b{
     display: block;
     margin-bottom: 12px;
@@ -54,4 +56,10 @@ a{
     display: block;
     margin-bottom: 10px;
 
+}
+
+@media only screen and (max-width: 600px) {
+para{
+    font-weight:bold;
+    }
 }
