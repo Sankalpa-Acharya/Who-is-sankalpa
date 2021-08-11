@@ -27,14 +27,10 @@
     width: 90w;
     height: auto;
     font-size: 18px;
-    font-weight: 100;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
-    color:black;
     
 }
-
-
 b{
     display: block;
     margin-bottom: 12px;
@@ -59,10 +55,10 @@ a{
 }
 
 @media only screen and (max-width: 600px) {
-.para{
-    font-weight:bold;
+    .para{
+        font-weight:bold;
+        }
+        .container{
+            width:100vw
+        }
     }
-    .container{
-        width:100vw
-    }
-}
