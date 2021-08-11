@@ -62,4 +62,7 @@ a{
 .para{
     font-weight:bold;
     }
+    .container{
+        width:100vw
+    }
 }
