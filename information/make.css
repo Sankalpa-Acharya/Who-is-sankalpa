@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #1a2332;
+}
+
 .container{
-    background-color: #f5f5f5;
-    width: 90vw;
+    background-color: #141d2b;
+    width: 95vw;
     height: auto;
     margin: 12px auto;
-    padding: 10px;
+    padding: 15px;
+    color: #a2afcb;
+    border-radius: 20px;
 
 }
 .header{
@@ -20,6 +26,7 @@
     align-items: center;
     font-size: 40px;
     font-weight: bold;
+    color: white;
     font-family: 'Baloo Chettan 2', cursive
 }
 
@@ -36,7 +43,12 @@ b{
     margin-bottom: 12px;
     font-size: 24px;
     margin-top: 12px;
+    color: aliceblue;
 }
+
+hr{
+        opacity: 20%;
+    }
 
 .header2{
     margin-top:30px ;
@@ -44,13 +56,16 @@ b{
     font-family: 'Baloo Chettan 2', cursive;
     font-size: 32px;
     font-weight: bold;
+    color: aliceblue;
 
 }
 a{
-    color: black;
-    font-size: 20px;
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 18px;
     display: block;
     margin-bottom: 10px;
+    color: rgb(10, 238, 10);
+    font-family: 'Poppins', sans-serif;
 
 }
 
