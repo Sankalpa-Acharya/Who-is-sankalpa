@@ -1,0 +1,153 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    overflow: hidden;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#ff8a00, #e52e71);
+}
+
+.terminal{
+    width: 50vw;
+    height: 54vh;
+    background-color: black;
+    border-radius: 15px;
+    color: green;
+    transition: 0.5s;
+    box-shadow: -1px 0px 28px 0px rgba(0,0,0,0.75);
+    position: relative;
+    top: 0px;
+    
+}
+
+.terminal .top{
+    width: 50vw;
+    height: 4vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    color: black;
+    
+
+}
+
+.terminal .top b{
+  margin:auto;
+  position: relative;
+  right: 22px;
+    
+
+}
+.terminal .top .red{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+.terminal .top .yellow{
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+.terminal .top .green{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 0px 12px;
+    cursor: pointer;
+    margin-right: 0px;
+}
+.terminal .textarea{
+    height: 50vh;
+    width: 50vw;
+    padding: 8px 2px;
+    background-color: black;
+    color: green;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    overflow: hidden auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+
+.textarea .commands{
+    margin:0px 14px;
+    background-color: black;
+    outline: none;
+    color: green;
+    border: none;
+    width: 40vw;
+    font-size: 14px;
+}
+span{
+    margin-top:-8px ;
+}
+p{
+    margin-top: -19px;
+}
+
+b{
+display: block;
+}
+.p9{
+margin-bottom: -16px;
+
+}
+@media only screen and (max-width: 600px) {
+  
+    .terminal{
+        width: 90vw;
+        height: 54vh;
+        background-color: black;
+        border-radius: 15px;
+        
+    }
+    .terminal .top{
+        width: 90vw;
+        height: 4vh;
+        background-color: white;
+        display: flex;
+        align-items: center;
+    
+    }
+
+  }
+
+  @keyframes example {
+      from{
+          position: relative;
+          top: 0px;
+      }
+      to{
+          top: 614px;
+      }
+  }
