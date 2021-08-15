@@ -1,153 +1,80 @@
 *{
-
-    margin: 0;
-    padding: 0;
+    margin:0px;
+    padding: 0px;
     box-sizing: border-box;
-}
-
-::-webkit-scrollbar{
-    display: none;
 }
 body{
     overflow: hidden;
-    font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .container{
-    
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     width: 100vw;
+    overflow: hidden;
     height: 100vh;
     display: flex;
     justify-content: center;
-    overflow: hidden;
-    flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(#ff8a00, #e52e71);
+
 }
 
-.terminal{
-    width: 50vw;
-    height: 54vh;
-    background-color: black;
-    border-radius: 15px;
-    color: green;
-    transition: 0.5s;
-    box-shadow: -1px 0px 28px 0px rgba(0,0,0,0.75);
+.content{
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    width: 97vw;
+    height: 97vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 29px -3px rgba(0,0,0,0.75);
+    font-family: 'Baloo 2', cursive;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+
+.dis{
+    margin-top: 4px;
+    margin-bottom:12px ;
+}
+
+.text{
+    font-size: 18px;
+    width: 60vw; 
+
+}
+#hr{
+    border-bottom: 2px solid black;
+    width: 70vw;
     position: relative;
-    top: 0px;
-    
+    top: 34px;
+    opacity: 40%;
 }
 
-.terminal .top{
-    width: 50vw;
-    height: 4vh;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    transition: 0.5s;
+.profile{
+    object-fit: cover;
+    object-position:0px -43px ;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(28,110,164,0.22);
+
+}
+
+#name{
+    color: rgb(87, 97, 86);
+}
+#Cm{
     color: black;
-    
-
 }
 
-.terminal .top b{
-  margin:auto;
-  position: relative;
-  right: 22px;
-    
 
+a{
+    text-decoration: none;
+    font-weight: bold;
 }
-.terminal .top .red{
-    width: 15px;
-    height: 15px;
-    background-color: red;
-    border-radius: 50%;
-    margin: 0px 8px;
-    cursor: pointer;
-}
-.terminal .top .yellow{
-    width: 15px;
-    height: 15px;
-    background-color: yellow;
-    border-radius: 50%;
-    margin: 0px 12px;
-    cursor: pointer;
-}
-.terminal .top .green{
-    width: 15px;
-    height: 15px;
-    background-color: green;
-    border-radius: 50%;
-    margin: 0px 12px;
-    cursor: pointer;
-    margin-right: 0px;
-}
-.terminal .textarea{
-    height: 50vh;
-    width: 50vw;
-    padding: 8px 2px;
-    background-color: black;
-    color: green;
-    outline: none;
-    resize: none;
-    font-size: 16px;
-    overflow: hidden auto;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    transition: 0.5s;
-    
-}
-
-.textarea .commands{
-    margin:0px 14px;
-    background-color: black;
-    outline: none;
-    color: green;
-    border: none;
-    width: 40vw;
-    font-size: 14px;
-}
-span{
-    margin-top:-8px ;
-}
-p{
-    margin-top: -19px;
-}
-
-b{
-display: block;
-}
-.p9{
-margin-bottom: -16px;
-
-}
-@media only screen and (max-width: 600px) {
-  
-    .terminal{
-        width: 90vw;
-        height: 54vh;
-        background-color: black;
-        border-radius: 15px;
-        
-    }
-    .terminal .top{
-        width: 90vw;
-        height: 4vh;
-        background-color: white;
-        display: flex;
-        align-items: center;
-    
-    }
-
-  }
-
-  @keyframes example {
-      from{
-          position: relative;
-          top: 0px;
-      }
-      to{
-          top: 614px;
-      }
-  }
