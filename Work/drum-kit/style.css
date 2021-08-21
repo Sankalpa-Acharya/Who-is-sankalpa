@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(0.5px); */
+}
+
+.font1{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+.header{
+ margin: 10px 0px;
+ color: white;
+}
+#emoji {
+    font-size: 34px;
+    margin: 11px 75px;
+    font-weight: 0;
+}
+#top {
+    margin: 17px 31rem;
+}
+#drumer {
+    border: 1px solid white;
+    margin: 3px 14rem;
+    width: 900px;
+    height: 416px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('hello.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -5px 13px 61px 3px rgb(0 0 0 / 68%);
+    
+   
+}
+#drumer div {
+    margin: -21px 19px;
+    border: 1px solid black;
+    border-radius: 0px;
+    height: 75px;
+    width: 81px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(255 255 255 / 74%);
+    box-shadow: -1px -5px 25px 4px rgba(0,0,0,0.75);
+
+}
+#drumer div span{
+    font-size: 30px;
+    font-family: "Baloo Da 2", cursive;
+    font-weight: bold;
+    
+}
+
+#drumer div p {
+    margin: -8px 0px;
+    font-family: "Baloo Da 2", cursive;
+    font-size: 14px;
+    font-weight: 0;
+    
+    
+    
+}
+
+#credit {
+    color: white;
+    margin: 70px 34rem;
+    font-family: "Baloo Da 2", cursive;
+}
+
+
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }

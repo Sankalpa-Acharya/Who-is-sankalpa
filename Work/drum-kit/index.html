@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    <title>Drum Kit</title>
+</head>
+<body>
+ 
+<div id="top">
+<H1 class="font1 header">JavaScript Drum Kit</H1>
+</div>
+
+<div id="drumer">
+<div data-key="65" id="clap" class="playing"><span>A</span>
+    <p>CLAP</p>
+</div>
+<div data-key="83"  id="drum"><span>S</span>
+    <p>HI HAT</p>
+</div><div data-key="68" id="HI"><span>D</span>
+    <p>KICK</p>
+</div><div data-key="70" id="KICK"><span>F</span>
+    <p>OPEN HAT</p>
+</div>
+<div data-key="71" id="OPEN"><span>G</span>
+    <p>BOOM</p>
+</div>
+<div data-key="72" id="SNARE"><span>H</span>
+    <p>RIDE</p>
+</div>
+<div data-key="74" id="SNARE"><span>J</span>
+    <p>SNARE</p>
+</div>
+
+</div>
+<div id="credit">
+    <h3>Design By Sankalpa Acharya</h3>
+</div>
+
+<audio data-key="65" src="audio/clap.wav"></audio>
+<audio data-key="83" src="audio/hihat.wav"></audio>
+<audio data-key="68" src="audio/kick.wav"></audio>
+<audio data-key="70" src="audio/openhat.wav"></audio>
+<audio data-key="71" src="audio/boom.wav"></audio>
+<audio data-key="72" src="audio/ride.wav"></audio>
+<audio data-key="74" src="audio/snare.wav"></audio>
+<script>
+    function sound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    if (!audio) return;
+
+    key.classList.add('playing');
+    audio.currentTime = 0;
+    audio.play();
+    key.setAttribute('class','playing')
+    setTimeout(() => {
+        key.removeAttribute('class','playing')
+    }, 20);
+  }
+  window.addEventListener('keydown', sound);
+</script>
+</body>
+</html>
