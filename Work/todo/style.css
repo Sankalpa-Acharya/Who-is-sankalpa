@@ -1,0 +1,81 @@
+h2{
+    display:flex ;
+    justify-content: center;
+    font-family: 'Concert One', cursive;
+    font-size: 2rem;
+
+}
+html {
+    background-color: #d5d4d1;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 21rem;
+}
+.container  #add {
+    border: 2px solid white;
+    border-radius: 44px;
+    background-color: #2c54f2;
+    color: white;
+    font-size: 18px;
+    width: 78px;
+    align-items: center;
+    margin: 33px 16px;
+}
+#notes .content button {
+    border: 2px solid white;
+    border-radius: 44px;
+    background-color: #ff7a00;
+    color: white;
+    font-size: 18px;
+    width: 78px;
+    align-items: center;
+    margin: 10px 112px;
+}
+.container textarea {
+    height: 236px;
+    width: 432px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    overflow-y: hidden;
+}
+@media only screen and (max-width: 777px) {
+    .container{
+        margin: 2rem 0rem;
+    }
+    #add:active{
+        background-color: gray;
+    }
+    button:active{
+        background-color: gray;
+    }
+  }
+#notes{
+    border: 2px solid black;
+}
+.container span{
+font-size: 22px;
+
+}
+.content {
+    margin-bottom: 21px;
+    margin-left: 22px;
+}
+#notes  b{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#notes .content span{
+    font-size: 32px;
+    margin: 4px 10px;
+}
+
+#notes .content p{
+    margin: 4px 6px;
+    font-size: 23px;
+}
