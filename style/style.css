@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.384);
+    height: 40px;
+  }
+
+:root{
+    --primary-color:#4458dc;
+    --font1:'Poppins', sans-serif;
+    --shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.add-shadow{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px
+
+}
+
+.head-section{
+    background-color: white;
+    font: normal;
+    text-transform: uppercase;
+    font-family: var(--font1);
+    padding: 1em;
+    margin-top: -5px;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+   
+
+}
+
+
+
+.nav-item{
+    margin: 0px 20px;
+}
+
+.nav-item a:hover{
+    color: var(--primary-color)!important;
+}
+
+.navbar-brand span{
+    color: var(--primary-color) !important;
+}
+/* ---------------navbar end---------------  */
+
+.banner{
+    margin-bottom: 230px;
+    margin-top: 20px;
+}
+
+.banner .container{
+    background: url(img/undraw_hacker_mind_6y85.svg) no-repeat;
+    background-position: 0% 50%;
+    margin-top: 80px;
+    padding: 1em;
+}
+
+
+.banner-text{
+    color:var(--primary-color);
+    font-size: 4rem;
+}
+
+
+
+
+.my-btn{
+
+    margin: 30px 0px;
+    margin-right: 20px;
+    border-radius: 2px;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    border: 1.5px solid transparent;
+    transition: .4s ease-out;
+    padding: .4rem .7rem;
+    box-shadow: var(--shadow);
+}
+.hire-me{
+    
+    color: white;
+    background-image: linear-gradient(to right, rgb(177, 81, 233) , rgb(148, 24, 250));
+    box-shadow: var(--shadow);
+
+}
+.buttons-field .hire-me:hover{
+   
+    border:1.5px solid var(--primary-color);
+    background-image: linear-gradient(to right,white,white);
+    color: black;
+   
+}
+.buttons-field .get-cv{
+
+    color: black;
+    border:1.5px solid var(--primary-color);
+
+}
+.buttons-field .get-cv:hover{
+
+
+    color: white;
+    background-image: linear-gradient(to right, rgb(177, 81, 233) , rgb(148, 24, 250));
+
+}
+
+
+.banner-img{
+    width:500px;
+}
+
+
+
+/* -----------------banner end ---------------------- */
+
+
+
+.about-section{
+    padding: 1.5em;
+}
+
+.about-section h2{
+    font-family: var(--font1);
+    font-size: 40px;
+    letter-spacing: 18px;
+
+}
+.about-section span{
+    width: 156px;
+}
+
+.about-section .intro{
+   color: var(--primary-color);
+   width: auto;
+
+}
+
+.image-section img{
+
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.para{
+    font-size: 16px;
+    font-family: var(--font1);
+    text-transform: capitalize;
+}
+/* ------------------about end-------------------  */
+
+.projects{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+    }
+.projects img{
+
+width: 55px;
+height: 55px;
+
+
+    }
+
+/* ------------------projects end-------------- */
+
+.skillset{
+    margin-bottom: 100px;
+    font-family: var(--font1);
+}
+.skillset img{
+   margin-right: 80px;
+   height: 48px;
+   margin-left: 40px;
+}
+
+/* --------------skill set end -------------- */
+#blogs{
+    margin-bottom: 80px;
+}
+#blogs img{
+    width: 300px;
+}
+#blogs h2{
+    margin-bottom: 20px;
+}
+#blogs .explain{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform:capitalize;
+}
+
+
+
+/* ------------blog end------------- */
+
+#collab{
+    background-image: linear-gradient(to-right,rgb(173, 90, 228),rgb(134, 27, 206));
+}
