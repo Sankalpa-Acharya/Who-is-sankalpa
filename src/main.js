@@ -17,13 +17,7 @@ var typed = new Typed('.for-typedjs', {
       });
 
 
-      $(document).ready(function(){
-        $(".skillset owl-carousel").owlCarousel({
-          'loop':true,
-          'autoplay':true,
-          'dots':true,
-        });
-      });
+ 
 
 
     document.getElementById('blog-btn').addEventListener('click',()=>{
