@@ -1,5 +1,5 @@
 var typed = new Typed('.for-typedjs', {
-    strings: ['STUDENT', 'HACKER','DEVELOPER'],
+    strings: ['STUDENT','DEVELOPER'],
     'typeSpeed':65,
     'backSpeed':65,
     'loop':true,
